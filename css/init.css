@@ -35,7 +35,77 @@ html{
 
 footer{
     display: grid;
-    justify-content: center;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
+}
+.f1{
+    width: 100%;
+    height: auto;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction:column;
+}
+.f1 h2{
+    font-family: var(--title-font);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 2rem;
+    color: #D3DEDC;
+}
+.f1-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9rem 0 9rem;
+}
+.f1-info p{
+    width: 300px;
+    font-family: var(--text-font);
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+.f1-info span{
+    inline-block: block;
+    color: black;
+}
+.contact{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    background-color: var(--yellow);
+    color: var(--blue);
+    margin: 5px;
+}
+.contact p{
+    display: flex;
+    justify-content: center;
+    color: var(--yellow);
+}
+.contact a{
+    text-align: var(--yellow);
+}
+
+.f2{
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AD0EC;
+}
+.f2 img{
+    padding: 2rem;
+    width: auto;
+}
+.f2 p{
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--blue);
 }
