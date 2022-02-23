@@ -109,3 +109,13 @@ footer{
     font-weight: 700;
     color: var(--blue);
 }
+.f2 button{
+    padding: 1.2rem 7rem;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--text-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
