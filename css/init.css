@@ -51,8 +51,14 @@ footer{
     display: flex;
     justify-content: center;
     padding: 15px;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin: 5px;
+    font-weight: 700;
     color: #D3DEDC;
+}
+span{
+    display: block;
+    font-weight: 500;
 }
 .f1-info{
     display: flex;
@@ -62,6 +68,7 @@ footer{
 .f1-info p{
     width: 300px;
     font-family: var(--text-font);
+    font-weight: 500;
     padding: 10px;
     font-size: 1.5rem;
     color: white;
@@ -84,11 +91,18 @@ footer{
 }
 .contact p{
     display: flex;
+    font-family: var(--text-font);
+    font-weight: 500;
+    font-size: 1.7rem;
     justify-content: center;
     color: var(--yellow);
 }
 .contact a{
     text-align: var(--yellow);
+    font-family: var(--text-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
 }
 
 .f2{
@@ -106,7 +120,7 @@ footer{
 }
 .f2 p{
     font-family: var(--text-font);
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--blue);
 }
@@ -195,5 +209,7 @@ footer{
 }
 
 .algo{
-    width: 200px;
+    width: 40rem;
+    font-family: var(--text-font);
+    font-size: 1.4rem;
 }
