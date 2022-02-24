@@ -34,16 +34,15 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
 }
-
-.f1 {
+/* debut de la section recommandation */
+.recommandations{
     width: 100%;
     height: auto;
     background-color: var(--blue);
     display: flex;
     flex-direction: column;
 }
-
-.f1 h2 {
+.recommandations-titer{
     font-family: var(--title-font);
     display: flex;
     justify-content: center;
@@ -54,63 +53,65 @@ footer {
     color: #D3DEDC;
 }
 
-span {
-    display: block;
-    font-weight: 500;
-}
-
-.f1-info {
+.recomandations-info{
     display: flex;
     justify-content: space-between;
     margin: 0 9rem 0 9rem;
+    height: auto;
+    
 }
-
-.f1-info p {
+.recomandations-paragraphe{
     width: 300px;
     font-family: var(--text-font);
     font-weight: 500;
     padding: 10px;
     font-size: 1.5rem;
     color: white;
+    text-align: left;
+    line-height: 30px;
 }
-
-.f1-info span {
-    inline-block: block;
+.recomandations-span{
+    display: block;
     color: black;
+    font-weight: 500;
 }
-
-.contact {
+.recommandations-contact{
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.contact h2 {
-    background-color: var(--yellow);
-    color: var(--blue);
-    margin: 5px;
-}
-
-.contact p {
+.recommandations-consigne{
     display: flex;
     font-family: var(--text-font);
     font-weight: 500;
     font-size: 1.7rem;
     justify-content: center;
     color: var(--yellow);
+    padding: 1rem;
 }
 
-.contact a {
+.recommandations-numero{
+    background-color: var(--yellow);
+    color: var(--blue);
+    margin: 5px;
+    padding: 1rem;
+}
+
+.recommandations-lien{
     text-align: var(--yellow);
     font-family: var(--text-font);
     font-size: 1.8rem;
     font-weight: 500;
     color: white;
+    padding: 1rem;
 }
+/* Fin de la section recommendation */
 
-.f2 {
+/* Debut de la section testcovide */
+.testcovide{
     background-color: var(--gray);
     display: flex;
     flex-direction: column;
@@ -120,19 +121,17 @@ span {
     height: 200px;
 }
 
-.f2 img {
-    padding: 1.3rem;
-    width: auto;
-}
-
-.f2 p {
+.testcovide-paragraphe{
     font-family: var(--text-font);
     font-size: 2rem;
     font-weight: 700;
     color: var(--blue);
 }
-
-.f2 button {
+.testcovide-img{
+    padding: 1.3rem;
+    width: auto;
+}
+.testcovide-button{
     padding: 1.2rem 4rem;
     background-color: var(--blue);
     color: white;
@@ -142,8 +141,10 @@ span {
     font-size: 2.5rem;
     font-weight: 700;
 }
+/* Fin de la section testcovide */
 
-.f3 {
+/* Debut de la section orientation */ 
+.orientation{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,7 +152,11 @@ span {
     height: 22.8rem;
 }
 
-.f3-info {
+.orientation-ministerlogo{
+    margin-top: 1.2rem;
+}
+
+.orientation-info{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -159,14 +164,14 @@ span {
     padding: 4rem 4rem;
 }
 
-.guide {
+.orientation-guide{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.guide a {
+.orientation-translat{
     text-decoration: none;
     color: black;
     border: solid black;
@@ -177,8 +182,7 @@ span {
     font-weight: 700;
     padding: 3px 7px;
 }
-
-.guide h2 {
+.orientation-accueil{
     color: var(--blue);
     margin: 25px 0;
     font-family: var(--text-font);
@@ -186,40 +190,38 @@ span {
     font-weight: 700;
 }
 
-.guide p {
+.orientation-conseil{
     font-family: var(--text-font);
     font-size: 1.8rem;
     font-weight: 700;
 }
 
-.contact-utiles {
+.orientation-utiles{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
-.contact-utiles h2 {
+.orientation-titerutile{
     color: var(--blue-shade);
     font-family: var(--text-font);
     font-weight: 700;
     font-size: 1.5rem;
 }
-
-.contact-utiles p {
+.orientation-allo{
     font-family: var(--text-font);
     font-size: 1.3rem;
     font-weight: 700;
 }
 
-.contact-utiles span {
+.orientation-num{
     font-family: var(--text-font);
     font-size: 1.4rem;
     font-weight: 700;
     color: green;
 }
 
-.algo {
+.orientation-paragraphe{
     width: 40rem;
     font-family: var(--text-font);
     font-size: 1.4rem;
@@ -342,6 +344,7 @@ nav {
     color: var(--gray);
     font-size: 1.8rem;
     text-align: center;
+    font-weight: 600;
 }
 
 .li2 {
@@ -353,7 +356,7 @@ nav {
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    width: 600px;
+    width: 350px;
     font-family: var(--title-font);
 }
 
@@ -383,10 +386,18 @@ nav {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.symptomes-title{
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    color: var(--blue);
+    font-weight: 700;
+    margin: 25px;
+}
 
 .symptome-pic-div1 {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .symptome-pic-picture {
@@ -402,9 +413,12 @@ nav {
 .symptome-pic {
     width: 60%;
 }
+<<<<<<< HEAD
 
 .symptomes-title {
     color: var(--blue);
     font-family: var(--title-font);
     font-size: 20px;
 }
+=======
+>>>>>>> 94980efc60035365112cf5860009249c5efdae80
