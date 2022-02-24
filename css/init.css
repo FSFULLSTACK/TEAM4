@@ -1,103 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-:root {
-    /* Headings and titles font */
-    --title-font: 'Josefin Sans', sans-serif;
-    /* text and paragraphs font */
-    --text-font: 'Karla', sans-serif;
-    /* User interface colors  */
-    --blue: #1078ad;
-    --yellow: #f4cf1b;
-    --gray: #9a9a9a;
-    --blue-shade: #2684b5;
-}
-
-
-/* initialisation */
-
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    /* (62.5 * 16px) / 100 = 10px */
-    font-size: 62.5%;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--blue-shade);
-    font-size: 2rem;
-}
-
-.nav-bar .list-style ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.nav-bar .list-style ul li {
-    padding: 20px;
-    list-style: none;
-}
-
-.logo {
-    float: left;
-    position: relative;
-    height: 100px;
-    width: 200px;
-}
-
-.contenu1 {
-    width: 100%;
-}
-
-nav {
-    margin-left: 75%;
-}
-
-.img1 {
-    height: 100px;
-}
-
-.btn {
-    border: 2px solid #fff;
-    border-radius: 20%;
-}
-
-.btn a {
-    text-decoration: none;
-    padding: 15px;
-}
-
-.second-div {
-    background-color: var(--yellow);
-    height: 125px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-family: cursive;
-}
-
-.contenu {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-left: 25%;
-    padding: 20px;
-    width: 50%;
-    padding: 5px;
-}
-
-.titre {
-    font-size: 2rem;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+     :root {
+        /* Headings and titles font */
+        --title-font: 'Josefin Sans', sans-serif;
+        /* text and paragraphs font */
+        --text-font: 'Karla', sans-serif;
+        /* User interface colors  */
+        --blue: #1078ad;
+        --yellow: #f4cf1b;
+        --gray: #9a9a9a;
+        --blue-shade: #2684b5;
+    }
+    /* initialisation */
+    
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        /* (62.5 * 16px) / 100 = 10px */
+        font-size: 62.5%;
+    }
+    
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--blue-shade);
+        font-size: 2rem;
+    }
+    
+    .nav-bar .list-style ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .nav-bar .list-style ul li {
+        padding: 20px;
+        list-style: none;
+    }
+    
+    .logo {
+        float: left;
+        position: relative;
+        height: 100px;
+        width: 200px;
+    }
+    
+    .contenu1 {
+        width: 100%;
+    }
+    
+    nav {
+        margin-left: 75%;
+    }
+    
+    .img1 {
+        height: 100px;
+    }
+    
+    .btn {
+        border: 2px solid #fff;
+        border-radius: 20%;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    .second-div {
+        background-color: var(--yellow);
+        height: 128px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-family: cursive;
+    }
+    
+    .contenu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-left: 25%;
+        padding: 20px;
+        width: 50%;
+        padding: 5px;
+    }
+    
+    .titre {
+        font-size: 2rem;
+    }
+    
+    p {
+        color: teal;
+        font-size: 2rem;
+        text-align: center;
+        color: gray;
+    }
+    
+    .main-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }
+    
+    .img2 {
+        margin-top: 20px;
+        height: 100px;
+    }
+    
+    .titr1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .p1 {
+        color: teal;
+    }
