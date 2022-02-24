@@ -1,140 +1,404 @@
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-     :root {
-        /* Headings and titles font */
-        --title-font: 'Josefin Sans', sans-serif;
-        /* text and paragraphs font */
-        --text-font: 'Karla', sans-serif;
-        /* User interface colors  */
-        --blue: #1078ad;
-        --yellow: #f4cf1b;
-        --gray: #9a9a9a;
-        --blue-shade: #2684b5;
-    }
-    /* initialisation */
-    
-    *,
-    *::after,
-    *::before {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    
-    html {
-        /* (62.5 * 16px) / 100 = 10px */
-        font-size: 62.5%;
-    }
-    
-    .nav-bar {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        background-color: var(--blue-shade);
-        font-size: 2rem;
-    }
-    
-    .nav-bar .list-style ul {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-    
-    .nav-bar .list-style ul li {
-        padding: 20px;
-        list-style: none;
-    }
-    
-    .logo {
-        float: left;
-        position: relative;
-        height: 100px;
-        width: 200px;
-    }
-    
-    .contenu1 {
-        width: 100%;
-    }
-    
-    nav {
-        margin-left: 75%;
-    }
-    
-    .img1 {
-        height: 100px;
-    }
-    
-    .btn {
-        border: 2px solid #fff;
-        border-radius: 20%;
-    }
-    
-    .btn a {
-        text-decoration: none;
-        padding: 20px;
-    }
-    
-    .second-div {
-        background-color: var(--yellow);
-        height: 128px;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        font-family: cursive;
-    }
-    
-    .contenu {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        margin-left: 25%;
-        padding: 20px;
-        width: 50%;
-        padding: 5px;
-    }
-    
-    .titre {
-        font-size: 2rem;
-    }
-    
-    p {
-        color: teal;
-        font-size: 2rem;
-        text-align: center;
-        color: gray;
-    }
-    
-    .main-section {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .right {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 2.5rem;
-        margin-top: 40px;
-        width: 50%;
-    }
-    
-    .img2 {
-        margin-top: 20px;
-        height: 100px;
-    }
-    
-    .titr1 {
-        font-size: 3rem;
-        text-align: center;
-        width: 600px;
-        color: var(--blue);
-    }
-    
-    .p1 {
-        color: teal;
-        font-size: 1.8rem;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root {
+    /* Headings and titles font */
+    --title-font: 'Josefin Sans', sans-serif;
+    /* text and paragraphs font */
+    --text-font: 'Karla', sans-serif;
+    /* User interface colors  */
+    --blue: #1078ad;
+    --yellow: #f4cf1b;
+    --gray: #9a9a9a;
+    --blue-shade: #2684b5;
+}
+
+
+/* initialisation */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* (62.5 * 16px) / 100 = 10px */
+    font-size: 62.5%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.f1 {
+    width: 100%;
+    height: auto;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.f1 h2 {
+    font-family: var(--title-font);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 3rem;
+    margin: 5px;
+    font-weight: 700;
+    color: #D3DEDC;
+}
+
+span {
+    display: block;
+    font-weight: 500;
+}
+
+.f1-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9rem 0 9rem;
+}
+
+.f1-info p {
+    width: 300px;
+    font-family: var(--text-font);
+    font-weight: 500;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.f1-info span {
+    inline-block: block;
+    color: black;
+}
+
+.contact {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    background-color: var(--yellow);
+    color: var(--blue);
+    margin: 5px;
+}
+
+.contact p {
+    display: flex;
+    font-family: var(--text-font);
+    font-weight: 500;
+    font-size: 1.7rem;
+    justify-content: center;
+    color: var(--yellow);
+}
+
+.contact a {
+    text-align: var(--yellow);
+    font-family: var(--text-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+}
+
+.f2 {
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9AD0EC;
+    height: 200px;
+}
+
+.f2 img {
+    padding: 1.3rem;
+    width: auto;
+}
+
+.f2 p {
+    font-family: var(--text-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.f2 button {
+    padding: 1.2rem 4rem;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--text-font);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.f3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 22.8rem;
+}
+
+.f3-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4rem 4rem;
+}
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guide a {
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    border-width: 1px;
+    border-color: var(--blue);
+    border-radius: 5px;
+    font-family: var(--text-font);
+    font-weight: 700;
+    padding: 3px 7px;
+}
+
+.guide h2 {
+    color: var(--blue);
+    margin: 25px 0;
+    font-family: var(--text-font);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.guide p {
+    font-family: var(--text-font);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.contact-utiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-utiles h2 {
+    color: var(--blue-shade);
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.contact-utiles p {
+    font-family: var(--text-font);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.contact-utiles span {
+    font-family: var(--text-font);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: green;
+}
+
+.algo {
+    width: 40rem;
+    font-family: var(--text-font);
+    font-size: 1.4rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--blue-shade);
+    font-size: 2rem;
+}
+
+.nav-bar .nav-bar-list-style ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-bar .nav-bar-list-style ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-bar-logo {
+    float: left;
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+.nav-bar-contenu {
+    width: 100%;
+}
+
+nav {
+    margin-left: 75%;
+}
+
+.nav-bar-image {
+    height: 100px;
+}
+
+.nav-bar-button {
+    border: 2px solid #fff;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.nav-bar-button a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.header-division2 {
+    background-color: var(--yellow);
+    height: 128px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.header-division2-contenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: 25%;
+    padding: 20px;
+    width: 50%;
+    padding: 5px;
+}
+
+.header-division2-titre {
+    font-size: 2rem;
+    font-family: var(--text-font);
+    color: var(--blue);
+}
+
+.header-division2-paragraphe {
+    font-size: 2rem;
+    text-align: center;
+    color: gray;
+    font-family: var(--text-font);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 50%;
+    width: 100%;
+}
+
+.main-section-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.main-section-title {
+    font-family: var(--title-font);
+    text-align: center;
+    width: 600px;
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+
+.main-section-paragraphe {
+    color: var(--gray);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.li2 {
+    color: #fff;
+}
+
+.main-section-button {
+    background-color: var(--blue);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    width: 600px;
+    font-family: var(--title-font);
+}
+
+.main-section-button a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.main-section-image {
+    height: 200px;
+    width: 600px;
+}
+
+.main-section-image img {
+    height: 300px;
+    width: 500px;
+}
+
+.symptomes {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.symptome-pic-div1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.symptome-pic-picture {
+    display: flex;
+    flex-direction: column;
+    padding: 50x;
+}
+
+.cntr {
+    text-align: center;
+}
+
+.symptome-pic {
+    width: 60%;
+}
