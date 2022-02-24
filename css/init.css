@@ -402,3 +402,9 @@ nav {
 .symptome-pic {
     width: 60%;
 }
+
+.symptomes-title {
+    color: var(--blue);
+    font-family: var(--title-font);
+    font-size: 20px;
+}
