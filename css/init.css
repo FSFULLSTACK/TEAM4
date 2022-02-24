@@ -213,3 +213,113 @@ span{
     font-family: var(--text-font);
     font-size: 1.4rem;
 }
+    
+    
+    .nav-bar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: var(--blue-shade);
+        font-size: 2rem;
+    }
+    
+    .nav-bar .list-style ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .nav-bar .list-style ul li {
+        padding: 20px;
+        list-style: none;
+    }
+    
+    .logo {
+        float: left;
+        position: relative;
+        height: 100px;
+        width: 200px;
+    }
+    
+    .contenu1 {
+        width: 100%;
+    }
+    
+    nav {
+        margin-left: 75%;
+    }
+    
+    .img1 {
+        height: 100px;
+    }
+    
+    .btn {
+        border: 2px solid #fff;
+        border-radius: 20%;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        padding: 20px;
+    }
+    
+    .second-div {
+        background-color: var(--yellow);
+        height: 128px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-family: cursive;
+    }
+    
+    .contenu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-left: 25%;
+        padding: 20px;
+        width: 50%;
+        padding: 5px;
+    }
+    
+    .titre {
+        font-size: 2rem;
+    }
+    
+    p {
+        color: teal;
+        font-size: 2rem;
+        text-align: center;
+        color: gray;
+    }
+    
+    .main-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }
+    
+    .img2 {
+        margin-top: 20px;
+        height: 100px;
+    }
+    
+    .titr1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .p1 {
+        color: teal;
+    }
