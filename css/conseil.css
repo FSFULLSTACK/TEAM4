@@ -32,3 +32,52 @@ html{
     /* (62.5 * 16px) / 100 = 10px */
     font-size: 62.5%;
 }
+
+.protéger{
+    display: grid;
+    text-align: center;
+    grid-gap:2.5rem;
+
+}
+
+.protéger-titer{
+    font-family: var(--title-font);
+    font-size: 2.8rem;
+    color: var(--blue);
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.protéger-restruction{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.protéger-part1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 3rem;
+}
+.protéger-part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 3rem;
+
+}
+
+.protéger-description{
+    font-family: var(--text-font);
+    color: #084594;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.protéger-paragraphe{
+    font-family: var(--text-font);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--blue);
+    margin-top: 1.5rem;
+}
