@@ -28,21 +28,25 @@ html {
     font-size: 62.5%;
 }
 
-footer {
+
+/* footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
 }
 /* debut de la section recommandation */
-.recommandations{
+
+.recommandations {
     width: 100%;
     height: auto;
     background-color: var(--blue);
     display: flex;
     flex-direction: column;
 }
-.recommandations-titer{
+
+
+/* .recommandations-titer{
     font-family: var(--title-font);
     display: flex;
     justify-content: center;
@@ -110,8 +114,11 @@ footer {
 }
 /* Fin de la section recommendation */
 
+
 /* Debut de la section testcovide */
-.testcovide{
+
+
+/* .testcovide{
     background-color: var(--gray);
     display: flex;
     flex-direction: column;
@@ -143,8 +150,11 @@ footer {
 }
 /* Fin de la section testcovide */
 
-/* Debut de la section orientation */ 
-.orientation{
+
+/* Debut de la section orientation */
+
+
+/* .orientation{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,7 +235,7 @@ footer {
     width: 40rem;
     font-family: var(--text-font);
     font-size: 1.4rem;
-}
+} */
 
 .nav-bar {
     display: flex;
@@ -386,7 +396,8 @@ nav {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.symptomes-title{
+
+.symptomes-title {
     font-family: var(--title-font);
     font-size: 2.5rem;
     color: var(--blue);
@@ -397,7 +408,6 @@ nav {
 .symptome-pic-div1 {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .symptome-pic-picture {
@@ -413,12 +423,49 @@ nav {
 .symptome-pic {
     width: 60%;
 }
-<<<<<<< HEAD
 
-.symptomes-title {
+<<<<<<< HEAD .symptomes-title {
     color: var(--blue);
     font-family: var(--title-font);
     font-size: 20px;
 }
-=======
->>>>>>> 94980efc60035365112cf5860009249c5efdae80
+
+.recommandations-officielles {
+    height: 300px;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.recommandations-titre {
+    text-align: center;
+}
+
+.recommandations-contenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommandations-contact {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.recommandations-titre {
+    color: #ECF0F1;
+    font-family: var(--title-font);
+    font-size: 25px;
+}
+
+.recommandations-paragraphes {
+    color: #fff;
+    font-size: 25px;
+    font-family: var(--text-font);
+    padding: 30px;
+}
+
+#black-para {
+    color: black;
+}
+
+.re=======>>>>>>>94980efc60035365112cf5860009249c5efdae80

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root {
+    /* Headings and titles font */
+    --title-font: 'Josefin Sans', sans-serif;
+    /* text and paragraphs font */
+    --text-font: 'Karla', sans-serif;
+    /* User interface colors  */
+    --blue: #1078ad;
+    --yellow: #f4cf1b;
+    --gray: #9a9a9a;
+    --blue-shade: #2684b5;
+}
+
+
+/* initialisation */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* (62.5 * 16px) / 100 = 10px */
+    font-size: 62.5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #90e0ef;
+    font-size: 2rem;
+}
+
+.navbar-lists ul {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-right: 30px;
+    font-family: var(--title-font);
+}
+
+.navbar-lists ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar .navbar-img img {
+    height: 120px;
+}
+
+.conseil-element {
+    color: #023e8a;
+}
+
+.navbar-btn {}
+
+.navbar-btn a {
+    text-decoration: none;
+    border: 2px #fff solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info-medical {
+    background-color: var(--yellow);
+    height: auto;
+}
+
+.info-medical-contenu {
+    text-align: center;
+}
+
+.info-medical-titre {
+    font-size: 2rem;
+    font-family: var(--title-font);
+    padding: 5px;
+}
+
+.info-medical-paragraphes {
+    font-size: 2.2rem;
+    font-family: var(--text-font);
+    color: var(--blue);
+}
+
+.main-div1-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.titre-info {
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--title-font);
+}
+
+.main-div1-img p {
+    text-align: center;
+}
+
+.main-title .title-info {
+    font-size: 4rem;
+    color: red;
+}
+
+.main-acceuil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+}
+
+.main-paragraphes {
+    text-align: center;
+    font-family: var(--text-font);
+    color: var(--blue);
+    font-size: 2.2rem;
+    padding: 20px;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    background-color: #90e0ef;
+}
+
+.informations-titre {
+    font-size: 3rem;
+    color: var(--blue);
+    font-family: var(--title-font);
+    padding: 20px;
+    text-align: center;
+}
+
+.informations-text {
+    font-size: 2.2rem;
+    color: #023e8a;
+    font-family: var(--text-font);
+    text-align: center;
+}
+
+.informations-text p {
+    padding: 10px;
+}
+
+.informations-para {
+    margin-bottom: 30px;
+}
+
+.informations-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.informations-buttons .button1 {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+    font-family: var(--text-font);
+    border-radius: 5%;
+}
+
+.one {
+    background-color: #023e8a;
+    margin-right: 50px;
+}
+
+.two {
+    background-color: #023e8a;
+    margin-left: 50px;
+}
+
+.corona-transmet {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.corona-transmet-image {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.corona-transmet h2 {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    color: var(--blue);
+}
+
+.grandir-img {
+    height: 135px;
+}
+
+.corona-transmet-image p {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 12px;
+    font-family: var(--text-font);
+    color: #023e8a;
+}
+
+.corona-transmet-img1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
