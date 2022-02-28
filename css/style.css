@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.footer {
+  font-size: 15px; }
+  .footer__contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center; }
