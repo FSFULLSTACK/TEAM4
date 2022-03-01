@@ -1,0 +1,50 @@
+        .header {
+            height: auto;
+            width: 100%;
+            background-color: brown;
+            &__navbar {
+                width: 100%;
+                background-color: cornflowerblue;
+            }
+            &__contenu {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &__list {
+                width: 40%;
+            }
+            &__ulist {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            &__li {
+                list-style: none;
+                &--head {
+                    text-decoration: none;
+                    list-style: none;
+                    border: 2px solid rgb(0, 119, 255);
+                    border-radius: 20%;
+                    padding: 10px;
+                }
+            }
+            &__division2 {
+                background-color: yellow;
+            }
+            &__titre2 {
+                text-align: center;
+                font-family: 'Josefin Sans', sans-serif;
+                padding: 10px;
+                font-size: 1.5rem;
+            }
+            &__paragraphe {
+                text-align: center;
+                font-family: 'Karla', sans-serif;
+                padding: 8px;
+                color: teal;
+                font-size: 1.3rem;
+            }
+            &__contenu2 {}
+        }

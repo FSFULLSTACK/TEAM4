@@ -11,6 +11,46 @@ html {
 #footer {
   font-size: 15px; }
 
+.header {
+  height: auto;
+  width: 100%;
+  background-color: brown; }
+  .header__navbar {
+    width: 100%;
+    background-color: cornflowerblue; }
+  .header__contenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; }
+  .header__list {
+    width: 40%; }
+  .header__ulist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .header__li {
+    list-style: none; }
+    .header__li--head {
+      text-decoration: none;
+      list-style: none;
+      border: 2px solid #0077ff;
+      border-radius: 20%;
+      padding: 10px; }
+  .header__division2 {
+    background-color: yellow; }
+  .header__titre2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    font-size: 1.5rem; }
+  .header__paragraphe {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    padding: 8px;
+    color: teal;
+    font-size: 1.3rem; }
+
 .footer {
   width: 100%;
   height: auto;
@@ -88,3 +128,77 @@ html {
   .footer__conseil3 {
     padding: 5px;
     color: grey; }
+  .footer__title2 {
+    color: royalblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem; }
+  .footer__medium {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00c3ff; }
+  .footer__button {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif; }
+  .footer__btndiv {
+    padding: 10px;
+    background-color: #2684b5;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 10px; }
+  .footer__img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50%; }
+
+.main {
+  width: 100%;
+  height: auto; }
+  .main__first {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+    justify-content: space-around; }
+  .main__img2 {
+    height: 500px;
+    width: 500px; }
+  .main__right {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; }
+  .main__title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 16px;
+    width: 700px;
+    color: cornflowerblue; }
+  .main__paragraphe {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: gray; }
+    .main__paragraphe p {
+      padding: 4px; }
+  .main__img1 {
+    height: 70px;
+    padding: 10px; }
+  .main__image {
+    width: 40%;
+    margin-left: 0; }
+  .main__button {
+    margin-top: 50px;
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center; }
+    .main__button--modifier {
+      color: #fff;
+      text-decoration: none; }
