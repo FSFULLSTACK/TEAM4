@@ -142,7 +142,7 @@ html {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin: 4rem 0 4rem 0;
     text-align: center; }
   .conseil__home {
     width: 90px;
@@ -187,3 +187,35 @@ html {
     background-color: #1078ad;
     padding: 2rem;
     border-radius: 0.5rem; }
+  .conseil__transmition {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 6rem; }
+  .conseil__transtiter {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    color: #1078ad;
+    font-weight: 700;
+    margin-bottom: 6rem; }
+  .conseil__transcontent {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around; }
+  .conseil__trancontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+  .conseil__transpara {
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    color: #1078ad;
+    margin: 1.9rem;
+    font-weight: 700; }

@@ -45,7 +45,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 4rem;
+        margin: 4rem 0 4rem 0;
         text-align: center;
     }
     &__home{
@@ -100,5 +100,43 @@
         padding: 2rem;
         border-radius: 0.5rem;
     }
+    &__transmition{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 6rem;
+    }
+    &__transtiter{
+        font-family: $title-font;
+        font-size: 2.3rem;
+        color: $blue-color;
+        font-weight: 700;
+        margin-bottom: 6rem;
+    }
+    &__transcontent{
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    &__trancontact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    &__transpara{
+        font-family: $text-font;
+        font-size: 1.5rem;
+        color: $blue-color;
+        margin: 1.9rem;
+        font-weight: 700;
+    }
+
 
 }
