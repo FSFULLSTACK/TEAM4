@@ -59,5 +59,46 @@
         font-size: 1.9rem;
         margin-top: 1.9rem;
     }
+    &__informations{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background-color:$secondry-color;
+        padding: 3.5rem;
+    }
+    &__infoparagraph{
+        width: 40%;
+        height: auto;
+    }
+    &__infotiter{
+        font-family:$title-font ;
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: $blue-color;
+    }
+    &__infopara{
+        font-family:$text-font ;
+        font-size: 1.5rem;
+        color: #2D31FA;
+        font-weight: 600;
+    }
+    &__infolinks{
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__infolink{
+        font-family: $title-font;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: #fff;
+        background-color: $blue-color;
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
 
 }

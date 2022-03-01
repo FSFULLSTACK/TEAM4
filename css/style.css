@@ -152,3 +152,38 @@ html {
     color: #1078ad;
     font-size: 1.9rem;
     margin-top: 1.9rem; }
+  .conseil__informations {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #86C6F4;
+    padding: 3.5rem; }
+  .conseil__infoparagraph {
+    width: 40%;
+    height: auto; }
+  .conseil__infotiter {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #1078ad; }
+  .conseil__infopara {
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    color: #2D31FA;
+    font-weight: 600; }
+  .conseil__infolinks {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .conseil__infolink {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: #1078ad;
+    padding: 2rem;
+    border-radius: 0.5rem; }
