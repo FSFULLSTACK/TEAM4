@@ -1,0 +1,63 @@
+.conseil{
+    width: 100%;
+    height: auto;
+    &__titer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1.8rem;
+        font-family:$title-font ;
+        font-size: 2rem;
+        color: $blue-color;
+    }
+    &__restruction{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 5rem 0 5rem;
+        
+    }
+    &__part1{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 2rem;
+    }
+    &__part2{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 6rem;
+    }
+    &__description{
+        font-family: $title-font;
+        font-size: 1.6rem;
+        color: $blue-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__consigne{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    &__home{
+        width: 90px;
+        height: 80px;
+    }
+
+    &__paragraphe{
+        font-family: $text-font;
+        color: $blue-color;
+        font-size: 1.9rem;
+        margin-top: 1.9rem;
+    }
+
+}
