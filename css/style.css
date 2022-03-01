@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62, 5%; }
+
+#footer {
+  font-size: 15px; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-areas: 'rec rec rec' 'con con con' 'bot bot bot'; }
+  .footer__recommendations {
+    grid-area: rec;
+    height: 300px;
+    background-color: #2684b5; }
+  .footer__title {
+    text-align: center;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem; }
+  .footer__paragraph {
+    padding: 40px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3rem; }
+  .footer__text {
+    color: #fff; }
+  .footer__description {
+    display: flex;
+    justify-content: space-around; }
+  .footer__conseil {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    grid-area: con;
+    height: auto;
+    background-color: #fff; }
+  .footer__contact {
+    padding: 40px;
+    font-size: 1.2rem; }
+  .footer__text1 {
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Josefin Sans', sans-serif; }
+  .footer__text2 {
+    padding: 10px;
+    text-align: center;
+    color: royalblue;
+    background-color: yellow; }
+  .footer__text3 {
+    padding: 10px;
+    text-align: center;
+    color: #fff; }
+    .footer__text3--modif {
+      text-decoration-color: yellow; }
+  .footer__paragraphes {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px; }
+  .footer__conseil1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif; }
+    .footer__conseil1--modifier {
+      color: red;
+      border: 1px blue solid;
+      border-radius: 20%; }
+    .footer__conseil1--modifier2 {
+      color: black; }
+    .footer__conseil1--modifier3 {
+      color: blue; }
+  .footer__conseil2 {
+    padding: 10px;
+    text-align: center; }
+    .footer__conseil2--modifier4 {
+      color: blue; }
+    .footer__conseil2--modifier6 {
+      color: green; }
+  .footer__conseil3 {
+    padding: 5px;
+    color: grey; }
