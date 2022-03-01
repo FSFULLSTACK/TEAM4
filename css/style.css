@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+>>>>>>> a65d470fd640e7d3a3f3739d700e4321bf55fdd6
 *,
 *::after,
 *::before {
@@ -6,6 +11,7 @@
   box-sizing: border-box; }
 
 html {
+<<<<<<< HEAD
   font-size: 62, 5%; }
 
 #footer {
@@ -202,3 +208,216 @@ html {
     .main__button--modifier {
       color: #fff;
       text-decoration: none; }
+=======
+  /* (62.5 * 16px) / 100 = 10px */
+  font-size: 62.5%; }
+
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #2684b5; }
+  .footer__recommandation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer__recpara {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+  .footer__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    margin: 1.5rem; }
+  .footer__recpara1 {
+    font-family: "Karla", sans-serif;
+    font-size: 1.8rem;
+    margin: 1.6rem;
+    color: #fff; }
+    .footer__recpara1--modifier {
+      color: black; }
+  .footer__recpara2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 2.5rem;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem; }
+  .footer__apple {
+    color: #f4cf1b; }
+  .footer__numero {
+    color: red; }
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .header__nav {
+    background-color: #1078ad;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between; }
+  .header__logo {
+    margin-left: 2rem; }
+  .header__items {
+    width: 50%;
+    display: flex;
+    justify-content: center; }
+  .header__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8rem;
+    text-decoration: none; }
+  .header__item1 {
+    display: flex;
+    text-align: center; }
+  .header__item2 {
+    display: flex;
+    color: antiquewhite; }
+  .header__item3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 0.1rem;
+    border-radius: 1rem;
+    padding: 0.4rem 0.7rem; }
+  .header__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f4cf1b;
+    font-family: "Karla", sans-serif;
+    font-size: 1.7rem;
+    padding: 4rem; }
+  .header__para {
+    padding-top: 1rem; }
+    .header__para--modifier {
+      color: #1078ad; }
+
+.conseil {
+  width: 100%;
+  height: auto; }
+  .conseil__titer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.8rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2rem;
+    color: #1078ad; }
+  .conseil__restruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 5rem 0 5rem; }
+  .conseil__part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 2rem; }
+  .conseil__part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 6rem; }
+  .conseil__description {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    color: #1078ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .conseil__consigne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 4rem 0;
+    text-align: center; }
+  .conseil__home {
+    width: 90px;
+    height: 80px; }
+  .conseil__paragraphe {
+    font-family: "Karla", sans-serif;
+    color: #1078ad;
+    font-size: 1.9rem;
+    margin-top: 1.9rem; }
+  .conseil__informations {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #86C6F4;
+    padding: 3.5rem; }
+  .conseil__infoparagraph {
+    width: 40%;
+    height: auto; }
+  .conseil__infotiter {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #1078ad; }
+  .conseil__infopara {
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    color: #2D31FA;
+    font-weight: 600; }
+  .conseil__infolinks {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .conseil__infolink {
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: #1078ad;
+    padding: 2rem;
+    border-radius: 0.5rem; }
+  .conseil__transmition {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 6rem; }
+  .conseil__transtiter {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.3rem;
+    color: #1078ad;
+    font-weight: 700;
+    margin-bottom: 6rem; }
+  .conseil__transcontent {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around; }
+  .conseil__trancontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+  .conseil__transpara {
+    font-family: "Karla", sans-serif;
+    font-size: 1.5rem;
+    color: #1078ad;
+    margin: 1.9rem;
+    font-weight: 700; }
+>>>>>>> a65d470fd640e7d3a3f3739d700e4321bf55fdd6
